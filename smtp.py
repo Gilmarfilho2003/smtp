@@ -411,20 +411,29 @@ cracked=[]
 rbads=0
 vers=requests.get('https://pastebin.com/raw/WuWLQk73').text.encode('utf-8')
 print('''
- 
-                     _____          
-_______________ ___ __  /_________ 
-__  ___/__  __ `__ \_  __/___  __ \
-_(__  ) _  / / / / // /_  __  /_/ /
-/____/  /_/ /_/ /_/ \__/  _  .___/ 
-                          /_/      
-  
-  ''')
-
-    ---------------------------------
-    Gilmar Filho
-    --------------------------------
-     print("\033[91mThere is New Version available !! Do you Want To Update Your tool ? \033[00m")
+   \033[0;96m_     _       \033[93m______   __       __  ________  _______      \033[0;96m_     _  
+  (c).-.(c)     \033[93m/      \ /  \     /  |/        |/       \    \033[0;96m(c).-.(c)
+   / ._. \     \033[93m/$$$$$$  |$$  \   /$$ |$$$$$$$$/ $$$$$$$  |    \033[0;96m/ ._. \ 
+ __\( Y )/__   \033[93m$$ \__$$/ $$$  \ /$$$ |   $$ |   $$ |__$$ |  \033[0;96m__\( Y )/__ 
+(_.-/'-'\-._)  \033[93m$$      \ $$$$  /$$$$ |   $$ |   $$    $$/  \033[0;96m(_.-/'-'\-._)
+   || A ||      \033[93m$$$$$$  |$$ $$ $$/$$ |   $$ |   $$$$$$$/      \033[0;96m|| R ||
+ _.' `-' '._   \033[93m/  \__$$ |$$ |$$$/ $$ |   $$ |   $$ |        \033[0;96m_.' `-' '._  
+(.-./`-'\.-.)  \033[93m$$    $$/ $$ | $/  $$ |   $$ |   $$ |       \033[0;96m(.-./`-'\.-.) 
+ `-'     `-'    \033[93m$$$$$$/  $$/      $$/    $$/    $$/         \033[0;96m`-'     `-'
+               \033[91m[\033[92m+\033[91m]\033[1m(C)opyright > Github.com/ARON-TN\033[91m [\033[92m+\033[91m]
+              \033[91m[\033[92m+\033[91m]\033[95m SMTP CRACKER V2.1 DEVEL BY ARON-TN \033[91m[\033[92m+\033[91m]
+             \033[91m[\033[92m+\033[91m]\033[92m     EMail : Mr_Aron@protonmail.ch    \033[91m[\033[92m+\033[91m]
+            \033[91m[\033[92m+\033[91m]\033[94m Facebook >  https://www.fb.com/Aron.Tn \033[91m[\033[92m+\033[91m]
+           \033[91m[\033[92m+\033[91m]   Youtube > youtube.com/AronTNxOfficial  \033[91m[\033[92m+\033[91m]''')
+ms0g ="\n\033[93mChecking\033[0;96m Your\033[91m Version (%s)\033[92m "%vers
+for i in ms0g:
+        sys.stdout.write(i)
+        sys.stdout.flush()
+        time.sleep(0.02)
+if vers=='2.1':
+  print('{>} Good You have last version \n')
+else:
+ print("\033[91mThere is New Version available !! Do you Want To Update Your tool ? \033[00m")
  ok=raw_input('''
    \033[91m[\033[94m1\033[91m]\033[00m YEs
    \033[91m[\033[94m2\033[91m]\033[00m No
@@ -477,5 +486,3 @@ try:
 except:
 	pass
 quee.join()
-
-    
