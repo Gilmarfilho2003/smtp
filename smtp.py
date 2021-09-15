@@ -477,5 +477,5 @@ try:
 except:
 	pass
 quee.join()
-© 2021 GitHub, Inc.
+
     
